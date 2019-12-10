@@ -49,6 +49,10 @@ To visualize the corrected images, run `python visualization.py`.
 
 Please cite it if you find our paper helpful:
 
+https://ieeexplore.ieee.org/document/8642637
+
+https://pureadmin.qub.ac.uk/ws/portalfiles/portal/163783181/sic_converted.pdf
+
 [1] Y. Zhao, C. Elliott, H. Zhou, and K. Rafferty, “Spectral Illumination Correction: Achieving Relative Color Constancy Under the Spectral Domain,” in 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT), 2018, pp. 690–695.
 
 ```
