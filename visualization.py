@@ -16,22 +16,21 @@ JSON_PATH = 'Dataset/data_nonuniform_illumination/tags.json'
 IMAGE_PATH = 'Dataset/data_nonuniform_illumination/'
 
 RECT_SCALE = 1000
+A_BGR = [15.2, 15.2, 15.2]
+B_BGR = [1.0, 1.0, 1.0]
+GAMMA_BGR = [2.4, 2.4, 2.4]
+LOG_BASE = [10.0, 10.0, 10.0]
 
 bg_tag = 0
 
 
 def nonuniform_illumination_correction(img, bg_img):
-    img = img / 255.0
-    bg_img = bg_img / 255.0
-    image = QcImage.spectral_nonuniform_illumination_correction_pixel(
-        bg_img, img)
-    image *= 255.0
-    image = image.astype(np.uint8)
-    return image
+    return QcImage.spectral_nonuniform_illumination_correction_pixel(
+        bg_img, img, a_bgr=A_BGR, b_bgr=B_BGR, gamma_bgr=GAMMA_BGR, logbase=LOG_BASE)
 
 
 def colour_matching(image, image_bg_bgr, bg_bgr):
-    return QcImage.fast_spectral_illumination_matching_pixel(image, image_bg_bgr, bg_bgr)
+    return QcImage.fast_spectral_illumination_matching_pixel(image, image_bg_bgr, bg_bgr, a_bgr=A_BGR, b_bgr=B_BGR, gamma_bgr=GAMMA_BGR, logbase=LOG_BASE)
 
 
 def generate_background_image(image):
