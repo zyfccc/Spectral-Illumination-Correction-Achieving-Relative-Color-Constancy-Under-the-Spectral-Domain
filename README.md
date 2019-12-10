@@ -47,7 +47,7 @@ To visualize the corrected images, run `python visualization.py`.
 
 ## Publication
 
-Please cite it if you find our paper helpful:
+Please cite our paper if you find this work helpful:
 
 https://ieeexplore.ieee.org/document/8642637
 
