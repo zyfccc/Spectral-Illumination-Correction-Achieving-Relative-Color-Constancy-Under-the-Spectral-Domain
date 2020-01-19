@@ -1,4 +1,4 @@
-# Spectral-Illumination-Correction-Achieving-Relative-Color-Constancy-Under-the-Spectral-Domain
+# Spectral Illumination Correction Achieving Relative Color Constancy Under the Spectral Domain (ISSPIT 2018)
 
 Source codes and datasets for the `Spectral Illumination Correction: Achieving Relative Color Constancy Under the Spectral Domain` paper.
 
