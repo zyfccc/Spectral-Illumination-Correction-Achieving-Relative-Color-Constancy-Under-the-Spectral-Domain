@@ -69,3 +69,8 @@ https://pureadmin.qub.ac.uk/ws/portalfiles/portal/163783181/sic_converted.pdf
 Thanks a lot!
 
 Yunfeng
+
+
+## Acknowledgment
+
+This project has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie-Sklodowska-Curie grant agreement No 720325, FoodSmartphone.
